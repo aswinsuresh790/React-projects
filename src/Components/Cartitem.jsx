@@ -32,7 +32,7 @@ class CartItem extends React.Component {
               alt="decrease"
               className="action-icons"
               src="https://static.thenounproject.com/png/261368-200.png"
-              onClick={() => onDecreaseQuantity(product)}
+              onClick={() =>onDecreaseQuantity(product)}
             />
             <img
               alt="delete"
@@ -44,7 +44,10 @@ class CartItem extends React.Component {
          
                 
         </div>
+        
       </div>
+      
+     
     );
   }
 }

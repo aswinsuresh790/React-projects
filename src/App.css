@@ -85,5 +85,30 @@ main .cards-full{
 }
 .cart {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+.navbar{
+  background-color: rgb(168, 168, 231);
+  color:white;
+}
+.navbarr a{
+  color:yellow;
+}
+.sr-only{
+  
+  background-color: yellow;
+margin-top: -8%;
+font-size:1.1rem;
+border-radius: 40%;
+color:red;
+}
+.cartimg{
+  width:10%;
+
+}
+.total{
+  width:100%;
+  background-color: beige;
+  padding-left: 19%;
+  
 }
