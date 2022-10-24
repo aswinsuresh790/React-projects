@@ -1,0 +1,66 @@
+li{
+
+  margin-left: 70px;
+}
+
+.cards img{
+  width:180px;
+  height:180px;
+ 
+}
+
+.decrease{
+  width:2%;
+  
+
+}
+.increase{
+  width:2%;
+  
+}
+.Trash{
+  width:2%;
+  
+}
+.operations{
+  margin:1%;
+  
+}
+.operations img{
+  margin-left:1%;
+  width:20px;
+
+}
+.itemName{
+  margin-left:2%;
+  display: block;
+}
+.price{
+  margin-left:2%;
+  display: block;
+}
+.cards-full{
+ display: flex;
+ 
+
+}
+.cards-items{
+  
+  margin: 2%;
+  
+}
+
+.cards{
+  display: flex;  
+  flex: 0 0 auto;         /* ADD */
+            /* ADD */
+    flex-direction: row;
+}
+
+
+
+
+
+main .cards-full{
+  display: block;
+}
